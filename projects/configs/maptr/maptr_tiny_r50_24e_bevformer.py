@@ -189,7 +189,7 @@ model = dict(
             pc_range=point_cloud_range))))
 
 dataset_type = 'CustomNuScenesLocalMapDataset'
-data_root = 'data/nuscenes/'
+data_root = 'forge/test/models/pytorch/vision/maptr/data/nuscenes/'
 file_client_args = dict(backend='disk')
 
 

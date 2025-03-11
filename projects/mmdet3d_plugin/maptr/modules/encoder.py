@@ -5,7 +5,7 @@ import torch.nn as nn
 from mmcv.cnn.bricks.registry import (ATTENTION,
                                       TRANSFORMER_LAYER,
                                       TRANSFORMER_LAYER_SEQUENCE)
-from mmdet3d.ops import bev_pool
+# from mmdet3d.ops import bev_pool
 from mmcv.runner import force_fp32, auto_fp16
 
 def gen_dx_bx(xbound, ybound, zbound):

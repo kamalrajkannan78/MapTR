@@ -4,7 +4,9 @@
 #  Modified by Zhiqi Li
 # ---------------------------------------------
 
-from tkinter.messagebox import NO
+# from tkinter.messagebox import NO
+
+# to avoid ModuleNotFoundError: No module named 'tkinter' 
 import torch
 from mmcv.runner import force_fp32, auto_fp16
 from mmdet.models import DETECTORS
